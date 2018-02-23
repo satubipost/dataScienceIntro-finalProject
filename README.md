@@ -938,3 +938,6 @@ forest.score(new_seq_test_x ,new_seq_test_y)
 ```python
 
 ```
+
+## Conclusion
+we got a score of about 72% accuracy. this score is pretty good since we only used 5 epochs and a vocabulary of size 600 in our deep network. we think that with stronger hardware we could train our model with a vocabulary of at least 4000 words and for at least 100 epochs. when we tried running it on our AWS instance it crashed - we think that with the right hardware our model can get more than 90% accuracy score.
