@@ -119,14 +119,14 @@ prince_raw_text = prince_raw_text[prince_raw_text.find('CHAPTER I -- HOW MANY KI
 
 ```
 
-download stopwords package from nltk
+Download stopwords package from nltk
 
 
 ```python
 #nltk.download()
 ```
 
-split the text by '.' and count # of sentences - we will later generate 0.3*#ofSentences for each book
+split the text by '.' and count # of sentences - we will later generate 0.3*NumofSentences for each book and numOfSentences in that book
 
 
 ```python
