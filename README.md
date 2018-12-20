@@ -3,7 +3,7 @@
 ### submitted by Daniel & Liora
 
 ## Assignment Description
-in this assignment we will build a different models for 3 different books and then test our models by trying to classify which book a paragraph is taken from. we will use keras to generate new sequences for each of the different books and then try to classify from which book the generated sequence originiated.
+in this assignment we will build different models for 3 different books and then test our models by trying to classify which book a paragraph is taken from. we will use keras to generate new sequences for each of the different books and then try to classify the book from which the generated sequence originiated.
 
 ## Data Gathering
 we will download our books from [Project Guteberg](https://www.gutenberg.org)
