@@ -68,12 +68,12 @@ downloader.retrieve(princeUrl, princeFile)
 #urllib.request.urlretrieve(princeUrl, princeFile)  
 ```
 
-We will work with 3 different books, we choose those books since they are written by different authors and are of different genres:
+We will work with 3 different books. We choose those books since they are written by different authors and are of different genres:
 * The Prince by Niccolò Machiavelli, 1532 (Non-fiction political text)
 * The Adventures of Sherlock Holmes by Arthur Conan Doyle, 1892 (Detective fiction)
 * Treasure Island by Robert Louis Stevenson, 1883 (Adventure fiction)
 
-each book contains some meta data from the gutenbern project and publication information, we will first clean it up we will remove the metadata from the books, remove stopwords , leave english characters only and use porter stemming to have a better count of simillar words. then we will count the number of sequences (sentences) in each book.
+each book contains some meta data from the gutenberg project and publication information, we will first clean up the text by removing the metadata and stopwords from the books. Our aim is to leave only the english characters and use porter stemming to have a better count of simillar words. then we will count the number of sequences (sentences) in each book.
 
 
 
@@ -110,7 +110,6 @@ treasure_raw_text = remove_metadata(treasure_raw_text)
 prince_raw_text = remove_metadata(prince_raw_text)
 ```
 
-we will need to clean our inputs. we don't want to have the book contents and other information, to learn the model we would like to have only the book itself. we will remove the unnecessary parts
 
 
 ```python
